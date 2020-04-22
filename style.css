@@ -1,0 +1,116 @@
+body{
+  width:560px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+main{
+  height:1840px;
+  width:560px;
+  display:flex;
+  
+}
+
+.right{
+  margin:0px;
+  padding:0px;
+  
+  width:336px;
+  padding-left:15px;
+  
+}
+
+.left{
+  width:224px;
+  
+}
+ 
+.quotes{
+  width:224px;
+  height:350px;
+  
+}
+
+img{
+  width:100%;
+  object-fit:cover;
+  
+  height:350px;
+  opacity:0.5;
+  margin:0px;
+}
+
+h1{
+  font-family: 'Abril Fatface', cursive;
+  color:#22222;
+  position:relative;
+  font-size:25px;
+  margin:0px;
+  padding:0px;
+  left:35px;
+  top:-150px;
+}
+
+.container{
+  width:224px;
+  
+  height:1490px;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+  
+}
+
+blockquote{
+  background:#222222;
+  color:white;
+  padding:40px;
+  margin-left:0px;
+  margin-right:0px;
+  font-size:35px;
+  position:relative;
+  line-height:50px;
+  margin:0px;
+}
+
+blockquote:before{
+  content:"\201C";
+  display:block;
+  position:absolute;
+  top:10px;
+  left:0px;
+  font-size:90px;
+}
+
+.first{
+  height:190px;
+  margin-top:20px;
+}
+
+.second{
+  height:190px;
+}
+
+.third{
+  height:400px;
+}
+
+header{
+  background:#222222;
+  width:100%;
+  height:50px;
+  text-align:center;
+  width:560px;
+}
+
+button{
+  background:#222222;
+  border:none;
+  color:white;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size:20px;
+  margin-top:15px;
+  cursor:pointer;
+  margin-left:5px;
+  margin-right:5px;
+}
